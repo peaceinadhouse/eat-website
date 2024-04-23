@@ -1,0 +1,256 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+}
+
+*{
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+    outline: none;
+   
+    transition: all 0.2s linear;
+}
+
+
+
+
+.white {
+    border: 3px solid black;
+    width: 1px;
+    border-radius: 50%;
+    padding: 1px;
+
+}
+
+
+.black1 {
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-bottom: 7px;
+
+}
+
+
+.black {
+    border: 4px solid black;
+    border-radius: 50%;
+
+    position: relative;
+    bottom: 200px;
+
+    
+
+}
+.Homecontrol{
+    margin: 6px;
+    z-index: -1;
+}
+
+
+nav a{
+    
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 44px ;
+    margin-left: 1px;
+    
+    padding: 5px;
+    color:  rgb(41, 70, 18);
+    position: relative;
+    bottom: 122px;
+
+    
+}
+
+
+.iccc{
+    display: flex;
+    margin-left: 612px;
+    
+}
+
+.navbar{
+    text-align: right;
+    
+}
+
+
+
+.homepageheading{
+    font-size: 20px;
+    position: relative;
+    bottom: 700px;
+    margin: 52px;
+    color: white;
+    text-shadow: 3px 3px green;
+ 
+}
+
+
+.wedeliver{
+    margin: 73px;
+    color: white;
+    position: relative;
+    bottom: 63px;
+    
+}
+
+.Tab{
+    
+    background-color: rgb(248, 247, 247);
+    position: sticky;
+    top: 0;
+   height: 63px;
+    
+
+    
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+.homeicon:hover + .hidden {
+    display: block;
+    color: black;
+    /* transform: rotate(180deg); */
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+.Nigeria::before{
+    
+    content: url(quality.png);
+}
+
+
+.Nigeria::after{
+    content: "Nigeria a place of heaalty soil,";
+    
+}
+
+
+
+.qualitycard{
+    display: flex;
+    
+}
+
+
+.qualitycard h2{
+    margin: 141px;
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+    margin: 3px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+  .slidecard{
+    border: 3px solid rgb(41, 70, 18);
+    width: 320px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 9px;
+    background-color: rgb(105, 216, 14);
+    color: white;
+  }
+
+  .slidecard p{
+
+    font-size: 17.7px;
+  }
+
+
+  .slidecard img{
+    border-radius: 7px;
+    
+    border: 3px solid aqua;
+  }
+
+  .slidecard:hover {
+    background-color: rgb(53, 83, 20);
+    border-color: blue;
+    color: peachpuff;
+  }
+
+
+.slidecard button{
+    background-color:rgb(254,249,230);
+    width: 100px;
+    height: 50px;
+    color:  rgb(69, 124, 24);
+    font-size: 15px;
+    border-radius: 5px;
+    
+    
+}
+
+
+.slidecard button:hover{
+    color: rgb(0, 238, 135); 
+    font-size: 17px;
+    background-color: gray;
+    border-color: blue;
+}
+
+
+.displaycard{
+    display: flex;
+    margin: 100px;
+}
+
+
+
+.orderDisplay{
+   float: right;
+}
+
+
+.orderDisplay input{
+    width: 30px;
+    height: 40px;
+    border-radius: 4px;
+    border-color: aqua;
+}
+
+
+.orderDisplay input:hover{
+    border-color: aqua;
+    border-radius: 9px;
+}
+
+.orderDisplay button{
+    border-color: aqua;
+}
